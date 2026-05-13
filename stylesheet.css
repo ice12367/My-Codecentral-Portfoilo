@@ -1,0 +1,141 @@
+body {
+    background-color: lightblue;
+    color:aliceblue;
+     font-family: "Noto Sans", sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 12em;
+    margin:0 0.1em 0 0;
+}
+h2{
+    font-size: 5em;
+    padding-top:12%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.mainnavbar{
+    text-align: center;
+    font-size: 1.2em;
+    padding:40px;
+    margin-bottom: 10%;
+}
+
+a {
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color:lightcyan;
+}
+
+a:hover{
+    background-color: lightskyblue;
+    color: lightsalmon;
+}
+
+#footer{
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    color: lightgreen;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    text-align:right;
+    margin: 0;
+    display:block;
+    width: 100%;
+    height: 100vh; 
+}
+
+p{
+    width:50%;
+    font-size:1.1em;
+    float:right;
+    margin-right: 30px;
+}
+
+iframe{
+    margin-top: 3%;
+    margin-left: 5%;
+    float: left;
+}
+
+@media screen and (max-width: 700px) {
+    
+    body {
+    background-color: blue;
+    color:azure;
+    margin: 0;}
+    
+    a:hover{
+        background-color:azure;
+       color:blue;
+    }
+
+    h1{
+    font-size: 5em;
+    margin:0 0.1em 0 0;
+    padding-right: 20px;
+}
+
+h2{
+    font-size: 3em;
+    padding-top:12%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.mainnavbar{
+    text-align: center;
+    font-size: 1em;
+    padding:40px;
+    margin-bottom: 10%;
+}
+
+article {
+    text-align:right;
+    margin: 0;
+    display:block;
+    width: 100%;
+    height: 100vh; 
+    
+}
+
+article .navbar {
+    font-size: 0.8em;
+    padding: 0px 20px 20px 0;
+}
+
+article a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color:lightcyan;
+}
+
+p{
+    width:50%;
+    font-size:1em;
+    float:right;
+    margin-right: 30px;
+}
+
+
+#footer{
+     color: blue;
+}
+
+}
